@@ -38,6 +38,6 @@ class Person:
        return self.__second_name
     
     def __str__(self):
-        return f"Person:\n {self.name},\n {self.second_name},\n {self.qualification}"
+        return f"Person:{self.name},{self.second_name}, {self.qualification}"
 
 
